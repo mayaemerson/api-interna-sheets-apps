@@ -1,0 +1,21 @@
+{
+  "name": "projetoapisheets",
+  "version": "1.0.0",
+  "description": "Projeto Api com sheets Get Push Delete",
+  "main": "index.js",
+  "scripts": {
+    "login": "clasp login",
+    "clone": "clasp clone 1EJ9e52lHxRY3DPXbRYIvXkqOvJEz7VQCyfZGzgbs6lU1mqESFcYRYmgn --rootDir apps",
+    "logout": "clasp logout",
+    "pull": "clasp pull",
+    "push": "clasp push"
+  },
+
+
+  "author": "Emerson Maia",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.84"
+  }
+}
